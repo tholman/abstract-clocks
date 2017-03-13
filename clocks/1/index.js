@@ -2,6 +2,7 @@
   
   var clockElement = document.querySelector('.clock');
   var bodyElement = document.body;
+  var updateSpeed = 10000; // ms (10 seconds)
   var colorA = '#003973';
   var colorB = '#ff6e7f';
 
@@ -15,7 +16,7 @@
     clockElement.style.background = 'linear-gradient(' + (degree - 180) + 'deg, ' + colorA + ',' + colorB + ')';
   }
 
-  setInterval(calculateGradient, 1000);
+  setInterval(calculateGradient, updateSpeed);
   calculateGradient();
 
 })();
