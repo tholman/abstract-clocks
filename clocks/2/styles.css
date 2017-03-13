@@ -1,8 +1,8 @@
 html, body {
-  height: 100%;
   width: 100%;
-  padding: 0px;
+  height: 100%;
   margin: 0px;
+  padding: 0px;
 }
 
 .clock {
@@ -10,8 +10,8 @@ html, body {
   transform: translate(-50%, -50%);
   border-radius: 100%;
   position: absolute;
-  height: 50vw;
-  width: 50vw;
+  height: 75vw;
+  width: 75vw;
   left: 50%;
   top: 50%;
 }
