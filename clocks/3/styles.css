@@ -1,0 +1,38 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+}
+
+.outer-gradient {
+  background: linear-gradient(0deg, #904e95, #904e95 20%, #e96443 80%, #e96443);
+  height: 300vh;
+  top: -100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.clock {
+  width: 75vw;
+  height: 75vw;
+  transition: background 300ms ease-in-out;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.inner-gradient {
+  background: linear-gradient(0deg, #e96443, #e96443 20%, #904e95 80%, #904e95);
+  width: 100%;
+  height: 225vw;
+  position: absolute;
+  top: -25vw;
+}
