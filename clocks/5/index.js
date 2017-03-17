@@ -15,7 +15,7 @@
     } 
 
     innerGradient.style.transform = "rotateZ(" + (-percentage * 360) + "deg)";
-    outerGradient.style.transform = "scale(1.2) " + "rotateZ(" + (-percentage * 360) + "deg)";
+    outerGradient.style.transform = "scale(1.4) " + "rotateZ(" + (-percentage * 360) + "deg)";
   }
 
   setInterval(calculateGradient, updateSpeed);
