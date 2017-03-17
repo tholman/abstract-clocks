@@ -39,6 +39,11 @@ h2 {
   margin-bottom: 0px;
 }
 
+a {
+  color: #335fff;
+  text-decoration: none;
+}
+
 header {
   line-height: 28px;
   text-align: center;
