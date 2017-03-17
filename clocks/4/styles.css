@@ -10,7 +10,7 @@ body {
 }
 
 .outer-gradient {
-  background: linear-gradient(0deg, #F4D03F, #F4D03F 30%, #16A085 70%, #16A085);
+  background: linear-gradient(0deg, #fff, #fff 30%, #9ec0db 70%, #9ec0db);
   height: 300vh;
   top: -100vh;
   position: absolute;
@@ -31,7 +31,7 @@ body {
 
 .inner-gradient {
   transition: top 300ms ease-in-out;
-  background: linear-gradient(0deg, #F4D03F, #F4D03F 30%, #16A085 70%, #16A085);
+  background: linear-gradient(0deg, #9ec0db, #9ec0db 30%, #fff 70%, #fff);
   width: 100%;
   height: 225vw;
   position: absolute;
