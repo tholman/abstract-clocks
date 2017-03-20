@@ -47,17 +47,21 @@ a {
 header {
   line-height: 28px;
   text-align: center;
-  max-width: 650px;
+  max-width: 690px;
   font-size: 18px;
   margin: auto;
   margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 section {
   display: flex;
-  max-width: 900px;
+  max-width: 940px;
   margin: auto;
   margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 ul {
@@ -82,4 +86,21 @@ li:before {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.frame {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+/**
+ * Responsive
+ */
+
+@media (max-width: 800px) {
+
+  .explaination {
+    padding-left: 50px;
+  }
 }
