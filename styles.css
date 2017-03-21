@@ -104,3 +104,38 @@ li:before {
     padding-left: 50px;
   }
 }
+
+@media (max-width: 650px) {
+
+  h1 {
+    line-height: 66px;
+  }
+
+  header {
+    margin-bottom: 50px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .frame {
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .explaination {
+    padding-left: 0px;
+  }
+
+  section:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.5);
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+}
