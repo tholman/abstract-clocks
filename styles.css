@@ -47,7 +47,7 @@ a {
 header {
   line-height: 28px;
   text-align: center;
-  max-width: 690px;
+  max-width: 600px;
   font-size: 18px;
   margin: auto;
   margin-bottom: 100px;
@@ -92,6 +92,14 @@ li:before {
   flex-direction: column;
   justify-content: center;
   display: flex;
+}
+
+footer {
+  padding-left: 50px;
+  margin: auto;
+  text-align: center;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 /**
