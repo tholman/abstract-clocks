@@ -1,6 +1,6 @@
 ## Abstract Clocks
 
-These gradiental clocks are the result of the experimentation of representing time in abstract yet distict ways. Each clock has a different way of representing time, and are explained below.
+These gradiental clocks are the result of the experimentation of representing time in abstract yet distict ways. Each clock has a different way of representing time, and are explained below. They'll make a lot more sense if you're [looking at the clock though](http://tholman.com/abstract-clocks)!
 
 ### Clocks!
 
