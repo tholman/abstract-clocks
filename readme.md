@@ -16,7 +16,7 @@ This clock displays the time in 24 hour format. With the inner circle's dark edg
 
 #### 2 - Hourly Rotation
         
-This clock behaves similarly to a regular wall clock, with the inner circle's dark edge pointing where the minute hadn would, and the other pointing to where the hour hand would be.
+This clock behaves similarly to a regular wall clock, with the inner circle's dark edge pointing where the minute hand would, and the other pointing to where the hour hand would be.
 
 *For Example:*
 
@@ -52,4 +52,4 @@ This clock is a color circle, rotating through time on a 12 hour schedule. The b
 
 - If the time were 12 O'Clock, the clock would be split between yellows and greens.
 - If the time were 6AM or PM, the clock would be spit between purples and reds.
-- If the time where 9AM or PM, the clock would be split between reds and oranges.
+- If the time were 9AM or PM, the clock would be split between reds and oranges.
